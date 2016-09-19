@@ -13,4 +13,6 @@ help
 example -h
 example current-thread
 example version -c ALL
+
+dashboard
 ````
