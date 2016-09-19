@@ -9,13 +9,14 @@ import org.crsh.command.RuntimeContext;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
- * Created by Peter_Szanto on 7/14/2016.
+ * Created by Peter Szanto on 7/14/2016.
  */
-
 @Usage("Example command for demonstration purposes")
-public class example extends BaseCommand {
+@Named("example")
+public class ExampleCommand extends BaseCommand {
 
     private enum Components {
         SPRING, BOOT, ALL;
@@ -24,6 +25,8 @@ public class example extends BaseCommand {
     @Usage("print version of a component")
     @Command
     public Map<String, Object> version(@Usage("name of the component, valid values are : SPRING, BOOT, ALL") @Option(names = {"c", "component"})  Components component) {
+
+        Objects.requireNonNull(component, "the component parameter must be specified");
 
         Map<String, Object> result = new HashMap<>();
 
