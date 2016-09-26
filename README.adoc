@@ -1,0 +1,7 @@
+# Spring boot example
+
+include::spring-boot-commandline-example/README.adoc[]
+
+include::spring-boot-actuator-example/README.adoc[]
+
+

@@ -1,5 +1,12 @@
-# spring-boot-example
+# spring-boot-actuator-example
 
+This example demonstrates the use of
+ 
+- Spring boot actuator 
+- Spring remote shell (Crash)
+- Custom crash command
+
+## Usage
 
 Connect to actuator using 
 ```shell

@@ -1,0 +1,3 @@
+# spring-boot-commandline-example
+
+This example shows how to create a command line application using spring boot.
