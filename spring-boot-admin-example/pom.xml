@@ -4,17 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.exampledriven</groupId>
-    <artifactId>spring-boot-example</artifactId>
+    <artifactId>spring-boot-admin-example-aggregator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <name>spring-boot-example-aggregator</name>
-    <description>Demo projects for Spring Boot</description>
+    <name>Spring boot admin aggregator</name>
 
     <modules>
-        <module>spring-boot-actuator-example</module>
-        <module>spring-boot-commandline-example</module>
-        <module>spring-boot-admin-example</module>
-	</modules>
-	
+        <module>admin-server</module>
+        <module>eureka-server</module>
+        <module>customer-service</module>
+    </modules>
+
 </project>
