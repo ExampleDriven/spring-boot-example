@@ -4,18 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.exampledriven</groupId>
-    <artifactId>spring-boot-example</artifactId>
+    <artifactId>spring-boot-autoconfig-example-aggregator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>spring-boot-example-aggregator</name>
+    <name>spring-boot-autoconfig-example-aggregator</name>
     <description>Demo projects for Spring Boot</description>
 
     <modules>
-        <module>spring-boot-actuator-example</module>
-        <module>spring-boot-commandline-example</module>
-        <module>spring-boot-admin-example</module>
-        <module>spring-boot-autoconfig-example</module>
-	</modules>
-	
+        <module>spring-boot-autoconfig-example-service</module>
+        <module>spring-boot-autoconfig-example-module</module>
+        <module>spring-boot-autoconfig-example-interface</module>
+    </modules>
+
 </project>

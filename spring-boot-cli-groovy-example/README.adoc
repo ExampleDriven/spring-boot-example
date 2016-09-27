@@ -1,0 +1,6 @@
+# Groovy script based boot example
+
+Install spring boot cli then execute
+```shell
+spring run application.groovy
+```

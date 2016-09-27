@@ -6,22 +6,20 @@ import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.ClassPathResource;
 
 @SpringBootApplication
 public class SpringBootExampleApplication {
 
-    private static Logger logger = LoggerFactory.getLogger(SpringBootExampleApplication.class);
-
     public static void main(String[] args) {
+        SpringApplication.run(SpringBootExampleApplication.class, args);
+    }
 
-        new SpringApplicationBuilder()
-                .sources(SpringBootExampleApplication.class)
-                .bannerMode(Banner.Mode.OFF)
-                .run(args);
-
-//        SpringApplication.run(SpringBootExampleApplication.class, args);
-        logger.info("After run method2");
+//    If this bean is enabled it will overwrite the autoconfigured bean
+    @Bean
+    public GreetingService helloService() {
+        return name -> "Hi " + name + " I am NOT an auto configured service";
     }
 
 }

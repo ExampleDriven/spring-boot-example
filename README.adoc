@@ -2,10 +2,15 @@ image:https://travis-ci.org/ExampleDriven/spring-boot-example.svg?branch=master[
 
 # Spring boot example
 
+include::spring-boot-cli-groovy-example/README.adoc[]
+
+include::spring-boot-autoconfig-example/README.adoc[]
+
 include::spring-boot-commandline-example/README.adoc[]
 
 include::spring-boot-actuator-example/README.adoc[]
 
 include::spring-boot-admin-example/README.adoc[]
+
 
 

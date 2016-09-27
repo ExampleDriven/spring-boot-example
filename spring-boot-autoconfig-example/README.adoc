@@ -1,0 +1,3 @@
+# spring-boot-autoconfig-example
+
+This example demonstrates how to create an autoconfig module that defines a bean, and how can it be gradually replaced by beans defined in the application
