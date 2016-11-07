@@ -1,0 +1,7 @@
+!!!!!!!!!!!!!!%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!                                       %
+!   Delete banner.txt and you get       %
+!   an another custom banner defined    %
+!   in the main class.                  %
+!                                       %
+!!!!!!!!!!!!!!%%%%%%%%%%%%%%%%%%%%%%%%%%%

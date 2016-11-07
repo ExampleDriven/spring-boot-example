@@ -16,6 +16,8 @@
         <module>spring-boot-commandline-example</module>
         <module>spring-boot-admin-example</module>
         <module>spring-boot-autoconfig-example</module>
+        <module>spring-boot-oauth2-example</module>
+        <module>spring-boot-custom-banner-example</module>
 	</modules>
 	
 </project>
