@@ -12,9 +12,10 @@ public class SpringBootCustomBannerExampleApplication {
         ImageBanner banner = new ImageBanner(
                 new ClassPathResource("rolling-stones.png"));
 
+        //create banner.txt or banner.png and get the same result
         new SpringApplicationBuilder()
                 .sources(SpringBootCustomBannerExampleApplication.class)
-                .banner(banner)
+//                .banner(banner)
                 .run();
     }
 
