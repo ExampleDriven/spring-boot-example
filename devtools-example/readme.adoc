@@ -1,0 +1,10 @@
+
+*Warning. The reload features are not yet properly configured for the multi module setup. Open this project separately*
+
+# Partial restart
+Modify a class, rebuild the project using your IDE and see the application context reload
+
+# Live reload
+- Download liverleaod client http://livereload.com/extensions/
+- Open http://localhost:8080 and enable liverolad client on the current tab
+- change index.html or style.css save it and see changes happening without reload
