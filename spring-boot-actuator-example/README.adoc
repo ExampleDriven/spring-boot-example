@@ -5,6 +5,17 @@ This example demonstrates the use of
 - Spring boot actuator 
 - Spring remote shell (Crash)
 - Custom crash command
+- /info page to include Build and git information
+
+# Metrics
+Custom metrics, gauge used here
+http://localhost:8080/testMetric
+
+and result displayed here
+http://localhost:8080/metrics
+
+
+# Remote shell
 
 ## Usage
 
