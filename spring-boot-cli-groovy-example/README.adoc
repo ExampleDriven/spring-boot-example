@@ -4,3 +4,8 @@ Install spring boot cli then execute
 ```shell
 spring run application.groovy
 ```
+
+To create a jar file 
+```shell
+ spring jar app.jar application.groovy
+```
