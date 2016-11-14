@@ -1,5 +1,7 @@
 image:https://travis-ci.org/ExampleDriven/spring-boot-example.svg?branch=master["Build Status", link="https://travis-ci.org/ExampleDriven/spring-boot-example"]
 
+Source code material for the presentation https://prezi.com/muvxumipdx7z/spring-boot/
+
 # Spring boot example
 
 include::devtools-example/README.adoc[]
