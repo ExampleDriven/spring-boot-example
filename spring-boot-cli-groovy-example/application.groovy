@@ -3,7 +3,7 @@ class Application {
 
   @RequestMapping('/')
   String home() {
-    'Hello World'
+    'Hello World from groovy'
   }
 
 }
