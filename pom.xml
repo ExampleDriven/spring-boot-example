@@ -19,6 +19,7 @@
         <module>spring-boot-autoconfig-example</module>
         <module>spring-boot-custom-banner-example</module>
         <module>devtools-example</module>
+        <module>spring-boot-minimal-example</module>
     </modules>
 
 </project>
