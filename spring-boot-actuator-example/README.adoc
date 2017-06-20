@@ -9,10 +9,10 @@ This example demonstrates the use of
 
 # Metrics
 Custom metrics, gauge used here
-http://localhost:8080/testMetric
+http://localhost:8081/testMetric
 
 and result displayed here
-http://localhost:8080/metrics
+http://localhost:8081/metrics
 
 
 # Remote shell
@@ -35,5 +35,5 @@ ExampleCommand version -c ALL
 
 Helper endpoints to test the dashboard command :
 
-http://localhost:8080/dashboard/deadlock
-http://localhost:8080/dashboard/sleep
+http://localhost:8081/dashboard/deadlock
+http://localhost:8081/dashboard/sleep
